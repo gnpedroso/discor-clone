@@ -1,0 +1,718 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2f3136;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #202225;
+  }
+  
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+.GroupBar {
+    min-height: 100vh;
+    background-color: #202225;
+    /* max-width: 72px; */
+    margin: 0;
+    padding: 0;
+}
+.GroupBar .insideGroupBar {
+    text-align: center;
+    padding: 12px 0 0;  
+}
+
+.GroupBar .insideGroupBar .fab {
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #44474d;
+}
+
+.GroupBar .insideGroupBar .fab:hover {
+    color:  #7289da;
+    cursor: pointer;
+}
+
+.GroupBar .insideGroupBar .icon{
+    margin: 10px auto;
+    color: #c8c9cb;
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #36393f;
+}
+
+.GroupBar .insideGroupBar .icon:hover{
+    background-color: #7289da;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25%;
+    transition: 0.1s ease;
+}
+
+.GroupBar .insideGroupBar .icon-menu{
+    padding: 0;
+    color: #43b581;
+    font-size: 1.5rem;  
+}
+
+.GroupBar .insideGroupBar .icon-menu{
+    padding: 0;
+    color: #43b581;
+    font-size: 1.5rem;  
+}
+
+.GroupBar .insideGroupBar .icon-menu:hover{
+    background-color: #43b581;
+    color: white;
+    cursor: pointer;
+    border-radius: 25%;
+    transition: 0.1s ease;
+}
+
+.MenuPhone {
+    background-color: #2f3136;
+    /* width: 240px; */
+    width: 100% ;
+    height: 100vh;
+}
+
+.MenuPhone .title {
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    padding: 4px;
+    justify-content: space-between;
+    border-bottom: 2px solid #2b2e32;
+}
+
+.MenuPhone .title:hover {
+    background-color: #373a41;
+    transition: 0.2s ease-in;
+}
+
+.MenuPhone .title h5{
+    position: relative;
+    top: 10px;
+    color: #f2f2f2;
+    font-size: 15px;
+}
+
+.MenuPhone .title .fa-chevron-down {
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+}
+
+.MenuPhone .typeChannel ul {
+    color: #72767d;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3px 2px 0 2px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    margin: 0;
+}
+
+.MenuPhone .typeChannel ul .channelTitle:hover {
+    color: rgb(240, 240, 240);
+    transition: 0.1s all
+}
+
+.MenuPhone .typeChannel ul .channelPlus {
+    font-size: 1.4rem;
+}
+
+
+.MenuPhone .typeChannel .modal-content {
+    background-color: #36393f;
+}
+
+.MenuPhone .typeChannel .modal-content hr{
+    color: #36393f;
+}
+
+.MenuPhone .typeChannel .modal-header {
+    border-bottom: 0 none;
+}
+
+.MenuPhone .typeChannel .modal-title {
+    color: white;
+    font-size: 15px;
+}
+
+.MenuPhone .typeChannel .close {
+    color: white;
+}
+
+.MenuPhone .typeChannel .modal-body input[type=checkbox] {
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 8px;
+}
+
+.MenuPhone .typeChannel .modal-body div{
+    padding: 15px;
+    color: #acadaf;
+}
+.MenuPhone .typeChannel .modal-body div:nth-child(3){
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 0;
+}
+.MenuPhone .typeChannel .modal-body div:nth-child(4){
+    padding-top: 3px;
+}
+
+.MenuPhone .typeChannel .modal-body .selectBox:hover{
+    background-color: #7289da;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.MenuPhone .typeChannel .modal-body .selectBox .fas {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.MenuPhone .typeChannel .modal-body .selectBox .createChannel {
+    font-size: 15px;
+    margin-left: 5px;
+    text-transform: initial;
+    color: white;
+}
+
+
+.MenuPhone .typeChannel .modal-body input[type='text']{
+    background-color: #303339;
+    outline: none;
+    border: 1px solid #242629;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #acadaf;
+}
+
+
+.MenuPhone .typeChannel .modal-footer {
+    border-top: 0 none;
+}
+
+
+.MenuPhone .typeChannel .modal-footer span {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.MenuPhone .typeChannel .modal-footer span:hover {
+    text-decoration: underline;
+}
+
+.MenuPhone .typeChannel .modal-footer button {
+    background-color: #7289da !important;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.MenuPhone .typeChannel .modal-footer button:hover {
+    background-color: #8296db !important;
+}
+
+
+
+.MenuPhone .channels {
+    cursor: pointer;
+    margin: 0 8px 0 8px;
+    color: #72767d;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.MenuPhone .channels li {
+    padding: 5px;
+}
+
+.MenuPhone .channels .fa-hashtag {
+    margin-right: 5px;
+}
+
+.MenuPhone .channels .addUser{
+    position: absolute;
+    margin-top: 2px;
+    color: #b9bbbe;
+    font-size: 10px;
+    right: 30px;
+}
+
+.MenuPhone .channels .configChannel{
+    position: absolute;
+    margin-top: 2px;
+    color: #b9bbbe;
+    font-size: 10px;
+    right: 15px;
+}
+
+.MenuPhone .channels .active{
+    background-color: #393c43;
+    border-radius: 5px;
+}
+
+.MenuPhone .channels .active .channelTitle{
+    color: #fff
+}
+
+.MenuPhone .channels .voiceActive .channelTitle{
+    color: #fff
+}
+
+.MenuPhone .channels .channel:hover {
+    background-color: #41444b;
+    border-radius: 5px;
+}
+
+.MenuPhone .channels .channel .addUser, .MenuPhone .channels .channel .configChannel {
+    display: none;
+}
+
+.MenuPhone .channels .channel:hover .addUser,.MenuPhone .channels .channel:hover .configChannel {
+    display: inline-block;
+}
+
+
+.MenuPhone .underMenu{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center; 
+    width: 100%;  
+    background-color: #292b2f;
+    height: 52px; 
+    cursor: pointer;
+}
+
+.MenuPhone .underMenu .avatarWrapper {
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+.MenuPhone .underMenu .grayCircle {
+    background-color: #292b2f;
+    width: 15px;
+    height: 15px;
+    z-index: 99;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: 25px;
+    display: inline-block;
+}
+
+.MenuPhone .underMenu .online {
+    background-color: #43b581;
+    width: 10px;
+    height: 10px;
+    z-index: 99;
+    border-radius: 50%;
+    position: relative;
+    left: 2px;
+    top: -23.6px;
+    display: inline-block;
+}
+
+.MenuPhone .underMenu .nameTag {
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.MenuPhone .underMenu .nameTag .discCode{
+    color: #b9bbbe;
+    font-size: 11px;
+}
+
+.MenuPhone .underMenu .configs {
+    position: absolute;
+    right: 15px;
+    color: #b9bbbe;
+    font-size: 14px;
+    
+}
+
+.MenuPhone .underMenu .configs span {
+    margin: 5px;
+    padding: 5px;
+}
+
+.MenuPhone .underMenu .configs span:hover{
+    background-color: #41444b;
+    border-radius: 5px;
+}
+
+.Chat {
+    background-color: #36393f;
+    height: calc(100vh - 48px);
+    max-width: 1    00%;
+}
+
+.Chat .firstMessage {
+    display: flex;
+    align-items: center;
+}
+
+.Chat .firstMessage p{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Chat .firstMessage span {
+    font-size: 11px;
+    color: #72767d;
+    margin-left: 8px;
+}
+
+.Chat .nickNameChat {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Chat .chatContainer .outputChat{
+    overflow-y: auto;
+    height: 720px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Chat .chatContainer .outputChat li{
+    padding-left: 15px;
+    height: 25px;
+    color: #d2d0d4;
+    font-size: 15px;
+}
+
+.Chat .chatContainer .outputChat li:hover{
+    background-color: #2f3136;
+}
+
+.Chat .chatContainer .outputChat .message {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Chat .chatContainer .outputChat .messageConfig {
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 5px;
+    background-color: #36393f;
+    top: -13px;
+    border: 1.5px solid #313336;
+    border-radius: 5px;
+    z-index: 99;
+  
+}
+
+.Chat .chatContainer .outputChat .messageConfig span{
+    cursor: pointer;
+    padding: 7px;
+}
+
+.Chat .chatContainer .outputChat .messageConfig span:nth-child(3){  
+    font-size: 20px;
+}
+
+.Chat .chatContainer .outputChat .message:hover .messageConfig {
+    display: flex;
+    align-items: center;
+}
+
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox {
+    position: absolute;
+    top: -10px;
+    right: 100px;
+    width: 180px;
+    background-color: #18191c;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 7px 9px 3px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 3px -8px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 3px -8px rgba(0,0,0,0.75);
+    display: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox div{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox div:nth-child(5){
+    color: #f04747;
+}
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox div:hover{
+    background-color: #7289da;
+    color: white;
+}
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox div:nth-child(5):hover{
+    background-color: #f04747;
+}
+
+
+
+
+
+
+.Chat .chatContainer .outputChat .messageConfig .messageConfigBox span{
+margin-left: 70px;
+}
+
+
+
+.Chat .inputChat {
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    color: #d1d0cd;
+    display: flex;
+    background-color: #40444b;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.Chat .inputChat input{
+    margin-left: 20px;
+    background-color: #40444b;
+    border: none;
+    color: #d1d0cd;
+    outline: none;
+    width: 500px
+}
+
+.Chat .inputChat .addBtn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.Chat .inputChat .chatConfigs {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    top: 6px;  
+}
+
+.Chat .inputChat .chatConfigs span {
+    margin-left: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.Chat .inputChat .chatConfigs span:nth-child(1):hover {
+    color: white;
+}
+
+.Chat .inputChat .chatConfigs span:nth-child(2):hover {
+    background-color: white;
+}
+
+.Chat .inputChat .chatConfigs .gif {
+    font-weight: bold;
+    background-color: #b9bbbe;
+    border-radius: 3px;
+    color: #404452;
+    padding: 3px;
+    font-size: .8rem;
+    display: inline-block;
+}
+
+.Chat .inputChat .emojisAPI {
+    /* display: none; */
+    position: absolute;
+    right: 0px;
+    top: -355px;
+    padding: 15px;
+    background-color: #2f3136;
+    border: 1px solid rgb(20, 20, 20)136;
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    transition: width .2s ease-in;
+}
+
+.Chat .inputChat .searchBarEmoji {
+    position: absolute;
+    width: 85%;
+    right: 40px;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 14px;
+    background-color: #202225;
+}
+
+.Chat .inputChat .searchIcon {
+    z-index: 99;
+    color: #fff;
+    position: absolute;
+    right: 50px;
+    color: #6f737a;
+    margin-top: 2px;
+}
+
+.Chat .inputChat .body {
+    margin-top: 40px;
+    border-radius: 4px;
+    height: 250px;
+}
+
+.Chat .inputChat .body .emoji-box{
+    overflow: scroll;
+    width: 100%;
+    height: 250px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+.Header {
+    background-color: #36393f;
+    width: 100%;
+    height: 48px;
+    border-bottom: 2px solid #2b2e32;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .channelHeader {
+    padding: 10px;
+}
+
+.Header .channelHeader .hashMark{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #6f737a;
+}
+
+.Header .channelHeader .channelName {
+    font-weight: bold;
+    margin: 2px 0 0 12px;
+}
+
+.Header .headerConfigs div{
+    margin-right: 18px;
+    color: #b9bbbe;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Header .headerConfigs div:nth-child(3) {
+    color: #fff;
+}
+
+.Header .headerConfigs div .fas:hover{
+    color: white;
+}
+
+.Header .headerConfigs .searchInput {
+    font-size: .8rem;
+    background-color: #202225;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Header .headerConfigs .searchInput input {
+    outline: none;
+    border: none;
+    background-color: #202225; 
+    color: #b9bbbe;   
+}
+
+
+.Friends {
+    background-color: #2f3136;
+    height: calc(98.5vh - 45px);
+    padding: 10px;
+}
+
+.Friends .userOnline {
+    color: #b9bbbe;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Friends .avatarWrapper {
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+.Friends .grayCircle {
+    background-color: #292b2f;
+    width: 15px;
+    height: 15px;
+    z-index: 99;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: 25px;
+    display: inline-block;
+}
+
+.Friends .online {
+    background-color: #43b581;
+    width: 10px;
+    height: 10px;
+    z-index: 99;
+    border-radius: 50%;
+    position: relative;
+    left: 3px;
+    top: -23.7px;
+    display: inline-block;
+}
+
+.Friends .userName {
+    color: #b9bbbe;
+    margin: 0;
+    padding: 0;
+}
+
+.Friends .userName .fa-crown {
+    font-size: 10px;
+    color: #faa61a;
+}
